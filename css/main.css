@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
+       body {
+           padding: 0 2em;
+           
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           font-family: 'Prata', serif;
+           
+       }
+
+       .content {
+
+           text-align: center;
+       }
+
+       h1 {
+
+           font-family: 'Pinyon Script', cursive;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 96px;
+           line-height: 112px;
+           text-align: center;
+           color: #000000;
+           margin: 0;
+
+
+       }
+
+       .content h6 {
+           margin: 0;
+           font-size: 36px;
+           line-height: 42px;
+           font-weight:100;
+       }
+
+       .about {
+           height: 80vh;
+           width: 100%;
+           display: flex;
+           justify-content: space-around;
+           padding: 0 1em;
+           position: relative;
+           overflow: hidden;
+           margin-bottom: 2em;
+           border:1px solid black;
+           
+
+       }
+
+       .left {
+           margin-top: 2em;
+           width: 50%;
+           padding: 1.5em;
+           display: flex;
+           flex-direction: column;
+
+       }
+
+       .left p {
+           font-size: 21px;
+           line-height: 40px;
+           /* or 167% */
+           display: flex;
+           align-items: center;
+
+       }
+
+       img {
+           width: 55%;
+           
+           align-self: flex-end;
+           justify-self: flex-end;
+           z-index: 1;
+           margin-bottom: 2em;
+       }
+
+       button {
+           width: 150px;
+           display: inline-block;
+           padding: .9em 2.2em;
+           outline: none;
+           border:none;
+           cursor: pointer;
+           border-radius: 5px;
+       }
+       .container {
+           width:100%;
+           text-align:center;
+           padding-bottom: 5%;
+           border:1px solid black;
+           padding-top:2em;
+       }
+
+       .container > ul {
+           margin-top: 5%;
+           display: flex;
+           text-align:center;
+           justify-content: space-around;
+           list-style-type: none;
+           width:100%;
+           padding:0;
+           
+       }
+
+       .container > ul > li {
+
+           
+           width:150px;
+           height:150px;
+           border-radius: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border:1px solid black;
+       }
+       
